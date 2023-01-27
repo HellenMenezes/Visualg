@@ -6,7 +6,8 @@ Algoritmo "exercicio2"
 // Data atual  : 25/01/2023
 Var
    // Seção de Declarações das variáveis
-   M, N, soma, sub, mult, divi : inteiro
+   M, N, soma, sub, mult : inteiro
+   divi : real
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -24,7 +25,7 @@ Inicio
    mult <- M * N
 
    divi <- 0
-   divi <- M \ N
+   divi <- M / N
 
    escreval("SOMA = ",soma)
    escreval("SUBTRACAO = ",sub)
