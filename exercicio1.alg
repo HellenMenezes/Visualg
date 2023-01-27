@@ -18,5 +18,4 @@ Inicio
    senao
       escreva("NUMERO IMPAR")
    fimse
-   //pao com queijo
 Fimalgoritmo
