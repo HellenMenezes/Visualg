@@ -27,7 +27,7 @@ Inicio
    soma <- 0
    para i de 0 ate M-1 faca
       para j de 0 ate N-1 faca
-         se i = j entao
+         se i + j = N-1 entao
             soma <- soma + mat[i,j]
          fimse
       fimpara
