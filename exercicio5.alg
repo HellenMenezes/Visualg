@@ -21,12 +21,12 @@ Inicio
 
       fimpara
    fimse
-   
+
    se N % 2 <> 0 entao
-   
-   para i de 2 ate N+1 faca
-   se i % 2 = 0 entao
-      escreval(i)
-    fimpara
+      para i de 2 ate N faca
+         se i % 2 = 0 entao
+            escreval(i)
+         fimse
+      fimpara
    fimse
 Fimalgoritmo
