@@ -1,0 +1,23 @@
+Algoritmo "notas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/09/2022
+Var
+   // Seção de Declarações das variáveis
+   primeiraNota, segundaNota, notaFinal : real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreva("Digite a primeira nota: ")
+   leia(primeiraNota)
+   escreva("Digite a segunda nota: ")
+   leia(segundaNota)
+   notaFinal <- primeiraNota + segundaNota
+   escreval("NOTA FINAL = ",notaFinal)
+   se notaFinal < 60 entao
+      escreva("REPROVADO")
+   fimse
+
+Fimalgoritmo
